@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrera de coches!</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="carreraCoches.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="fondo">
+        <label for="participantes">Número de participantes</label>
+        <select id="num">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br>
+        <button type="button" id="Iniciar">Iniciar</button><br>
+        <button type="button" id="Reiniciar">Reiniciar</button><br>
+       
+    </div>
+    <div id="participantes">
+        <div class="carretera" id="1">
+            <div class="carretera-image">
+                <img src="carretera.jpg" alt="carretera 1">
+            </div>
+        </div>
+        <div class="carretera" id="2">
+            <div class="carretera-image">
+                <img src="carretera.jpg" alt="carretera 2">
+            </div>
+        </div>
+        <div class="carretera" id="3">
+            <div class="carretera-image">
+                <img src="carretera.jpg" alt="carretera 3">
+            </div>
+        </div>
+        <div class="carretera" id="4">
+            <div class="carretera-image">
+                <img src="carretera.jpg" alt="carretera 4">
+            </div>
+        </div>
+    </div>
+    <table id="resultados">
+        <caption>Resultados</caption>
+    </table>
+</body>
+</html>

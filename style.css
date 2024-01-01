@@ -1,0 +1,40 @@
+body{
+    background-size: contain;
+    margin: 0 auto;
+}
+
+#fondo{
+
+    background-image: url(evergreen-2025158_640.png);
+    background-size: 100% 100%;
+    height: 40vh;
+    position: relative;
+    
+}
+
+button, label{
+
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+img{
+
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+
+#coches{
+
+    width: 8%;
+    height: 8%;
+    
+}
+
+.carretera{
+    position: relative;
+}
+
+
+
